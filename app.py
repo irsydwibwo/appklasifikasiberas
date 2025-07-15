@@ -58,7 +58,7 @@ if menu == "🏠 Beranda":
     # Card deskripsi sistem
     st.markdown("""
     <div style='background-color:#f9f9f9; padding:20px; border-radius:12px; margin-top:20px; color: black;'>
-        <h3='text-align:center;'>🛠️ Tentang Sistem</h3>
+        <h3 style='text-align:center;'>🛠️ Tentang Sistem</h3>
         <p style='font-size:21px; text-align:center;'>Aplikasi ini menggunakan algoritma Decision Tree untuk mengklasifikasikan beras menjadi kategori <b>Premium</b>, <b>Medium</b>, atau <b>Rendah</b>. 
         Input dilakukan berdasarkan parameter fisik beras seperti warna, ukuran, keutuhan, dan kebersihan. 
         </p>
